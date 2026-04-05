@@ -11,7 +11,7 @@ export default function Header({ themeMode, onToggleTheme }: HeaderProps) {
         <header className="glass flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 sticky top-0 z-[100]">
             <div className="flex items-center gap-3">
                 {/* Logo 图标区域 - 使用你上传的图片 */}
-                <div className="w-8 h-8 rounded-[8px] flex items-center justify-center bg-black dark:bg-white shadow-[0_2px_8px_rgba(0,0,0,0.15)] dark:shadow-[0_2px_12px_rgba(255,255,255,0.15)]">
+                <div className="w-8 h-8 rounded-[8px] flex items-center justify-center shadow-[0_2px_8px_rgba(0,0,0,0.15)] dark:shadow-[0_2px_12px_rgba(255,255,255,0.15)]">
                     <img 
                         src="/geeklogo.png" 
                         alt="Geek Logo" 
