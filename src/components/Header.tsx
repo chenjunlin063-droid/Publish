@@ -10,14 +10,15 @@ export default function Header({ themeMode, onToggleTheme }: HeaderProps) {
     return (
         <header className="glass flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 sticky top-0 z-[100]">
             <div className="flex items-center gap-3">
+                {/* Logo 图标区域 - 使用你上传的图片 */}
                 <div className="w-8 h-8 rounded-[8px] flex items-center justify-center bg-black dark:bg-white shadow-[0_2px_8px_rgba(0,0,0,0.15)] dark:shadow-[0_2px_12px_rgba(255,255,255,0.15)]">
-                      <img 
+                    <img 
                         src="/geeklogo.png" 
                         alt="Geek Logo" 
                         className="w-full h-full object-cover rounded-[8px]"
-                      />
-                    </svg>
+                    />
                 </div>
+                {/* Logo 文字 */}
                 <span className="font-bold text-lg tracking-tight text-black dark:text-white">Geek Publish<span className="hidden sm:inline"> - 极客排版</span></span>
             </div>
 
