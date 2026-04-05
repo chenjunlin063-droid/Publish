@@ -1,6 +1,6 @@
-export const defaultContent = `# Raphael Publish - 公众号排版大师
+export const defaultContent = `# Geek Publish - 极客排版
 
-> 欢迎使用 Raphael Publish，一款专为**微信公众号**与**内容创作者**设计的现代 Markdown 排版引擎！
+> 欢迎使用 Geek Publish，一款专为**内容创作者**设计的现代 Markdown 排版引擎，支持一键复制到公众号！
 
 ## 核心功能
 
