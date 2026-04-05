@@ -1,8 +1,8 @@
-# Raphael Publish - 公众号排版大师
+# Geek Publish - 极客排版
 
-专为**微信公众号**与**内容创作者**打造的现代 Markdown 排版引擎。
+专为**内容创作者**打造的现代 Markdown 排版引擎。
 
-> **在线体验**：[https://publish.raphael.app](https://publish.raphael.app)
+> **在线体验**：[https://geekpublish.vercel.app/](https://geekpublish.vercel.app/)
 
 ![Raphael Publish 截图](media/screenshot.png)
 
